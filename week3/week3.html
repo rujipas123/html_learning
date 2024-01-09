@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<table border="1">
+ <tr>
+  
+     <td colspan="2"> <p align ="Center"> กรอกข้อมูล </p>  </tr> 
+     
+ </tr>
+<td><form action="index.html" method="got">
+ <iabel for="">Username</iabel>
+  </td>
+            <td><input type="text" placeholder="Username"></td>
+
+        </tr>
+        <tr>
+            <td><label for="">Password</label></td>
+            <td><input type="password"></td>
+        </tr>
+        <tr>
+            <td> <label for="">Age</label> </td>
+             <td> <input type="number" min="1" max="2" value="1"> </td>
+        </tr>
+            <td>   <ladel for="">phone numder = 123-456-7890</ladel> </td>
+            <td>   <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required> </td>
+        </tr>
+        <tr>
+           <td> <label for="">เกมที่ชอบ : </label> </td>
+            <td> <input type="text" placeholder="เกมที่ชอบ"> </td>
+        </tr>
+        <tr>
+            <td> <label for="">กิจกรรมที่ชอบ : </label> </td>
+            <td> <input type="text" placeholder="กิจกรรมที่ชอบ"> </td>
+        </tr>
+    </table>
+    <meta charset="UTF-8">
+    <meta name="viewport"" content="width=device-width">
+    <title>From</title>
+</head>
+<body>
+    <form action="" methof="get">
+        <label for="">Username : </label>
+        <input type="text">
+        <br>
+        <label for="">Password</label>
+        <input type="password">
+         <br>
+         <label for="">Age</label>
+         <input type="number" min="1" max="100" value="1">
+        <br>
+        <ladel for="">phone numder = 123-456-7890</ladel>
+        <br>
+        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required>
+        <br>
+        <label for="">เกมที่ชอบ : </label>
+        <select name="" id="">
+        <option value="ROV">ROV</option>
+        <option value="GTA">GTA</option>
+        <option value="Roblox">Roblox</option>
+        </select>
+        <br>
+        <label for="">กิจกรรมที่ชอบ : </label>
+        <input type="checkbox" value="กิน">กิน
+        <input type="checkbox" value="นอน">นอน
+        <input type="checkbox" value="เล่นเกม">เล่นเกม
+        <br>
+        <label for="">โตขึ้นอยากทำอาชีพอะไร : </label>
+        <input type="radio" name="work" value="ช่างตัดผม">ช่างตัดผม
+        <input type="radio" name="work" value="ช่างซ่อมรถ">ช่างซ่อมรถ
+        <input type="radio" name="work" value="เจ้าของร้านค้า">เจ้าของร้านค้า
+        <input type="radio" name="work"  value="เจ้าของร้านอาหาร">เจ้าของร้านอาหาร
+        <br>
+        <input type="submit" value="บันทึกข้อมูล">
+        <input type="reset">
+        
+</form>
+</body>
+</html>
